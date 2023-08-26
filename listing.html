@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staybnb - Listings</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/logo-red - Copy.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.css">
+</head>
+<body>
+    <nav class="navBar-white" id="navBar">
+        <img class="logo" src="images/logo-red.png" alt="logo">
+        
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a  class="active" href="listing.html">Popular Places</a></li>
+            <li><a href="accomodation.html">Accomodation</a></li>
+        </ul>
+        
+        <a class="register-btn" href="#">Register Now</a>
+
+        <i onclick="togglebtn()" class="fa-solid fa-bars"></i>
+    </nav>
+
+    <div class="container">
+        <div class="list-container">
+            <div class="left-col">
+                <p>200+ Options</p>
+
+                <h1>Recommended Places</h1>
+
+                <div class="house">
+                    <div class="house-img">
+                        <img src="images/image-s1.png" alt="house-1">
+                    </div>
+
+                    <div class="house-info">
+                        <p>House in California</p>
+
+                        <h3>Deluxe Queen Room with Street View</h3>
+
+                        <p>3 Bedrooms / 3 Bathrooms / Kitchen / Wifi</p>
+
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star"></i>
+
+                        <div class="house-price">
+                            <p>3 persons</p>
+
+                            <h4>$700 <span>/day</span></h4>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="house">
+                    <div class="house-img">
+                        <img src="images/image-s2.png" alt="house-1">
+                    </div>
+
+                    <div class="house-info">
+                        <p>Guest Suite in Amsterdam</p>
+
+                        <h3>Suite with Movie-Theatre</h3>
+
+                        <p>2 Bedrooms / 2 Bathrooms / Theatre / Kitchen / Wifi</p>
+
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+
+                        <div class="house-price">
+                            <p>2 persons</p>
+
+                            <h4>$1100 <span>/day</span></h4>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="house">
+                    <div class="house-img">
+                        <img src="images/image-s3.png" alt="house-1">
+                    </div>
+
+                    <div class="house-info">
+                        <p>Flat in New York</p>
+
+                        <h3>Fully Furnished Flat near the City</h3>
+
+                        <p>2 Bedrooms / 2 Bathrooms / Kitchen / Wifi</p>
+
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star"></i>
+
+                        <div class="house-price">
+                            <p>2 persons</p>
+
+                            <h4>$550 <span>/day</span></h4>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="house">
+                    <div class="house-img">
+                        <img src="images/image-s4.png" alt="house-1">
+                    </div>
+
+                    <div class="house-info">
+                        <p>Flat in Istanbul</p>
+
+                        <h3>Deluxe Flat with Spa</h3>
+
+                        <p>3 Bedrooms / 3 Bathrooms / Spa / Kitchen / Wifi</p>
+
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+
+                        <div class="house-price">
+                            <p>3 persons</p>
+
+                            <h4>$870 <span>/day</span></h4>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="house">
+                    <div class="house-img">
+                        <img src="images/image-s5.png" alt="house-1">
+                    </div>
+
+                    <div class="house-info">
+                        <p>Private Villa in San Francisco</p>
+
+                        <h3>Magnificent Villa on the Beach</h3>
+
+                        <p>4 Bedrooms / 4 Bathrooms / Gym / Kitchen / Pool / Wifi</p>
+
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+
+                        <div class="house-price">
+                            <p>5 persons</p>
+
+                            <h4>$1500 <span>/day</span></h4>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="house">
+                    <div class="house-img">
+                        <img src="images/image-s6.png" alt="house-1">
+                    </div>
+
+                    <div class="house-info">
+                        <p>Private Villa in Melbourne</p>
+
+                        <h3>Deluxe Villa with Street View</h3>
+
+                        <p>5 Bedrooms / 5 Bathrooms / 2 Kitchens / Pool / Wifi</p>
+
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+
+                        <div class="house-price">
+                            <p>4 persons</p>
+
+                            <h4>$1250 <span>/day</span></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="right-col">
+                <div class="sidebar">
+                    <h2>Select Filters</h2>
+
+                    <h3>Property Type</h3>
+
+                    <div class="filters">
+                        <input type="checkbox"> <p>House</p> <span>(0)</span>
+                    </div>
+                    
+                    <div class="filters">
+                        <input type="checkbox"> <p>Villa</p> <span>(0)</span>
+                    </div>
+                    
+                    <div class="filters">
+                        <input type="checkbox"> <p>Flat</p> <span>(0)</span>
+                    </div>
+                    
+                    <div class="filters">
+                        <input type="checkbox"> <p>Hostel</p> <span>(0)</span>
+                    </div>
+                    
+                    <div class="filters">
+                        <input type="checkbox"> <p>Guest Suites</p> <span>(0)</span>
+                    </div>
+
+                    <h3>Amenities</h3>
+                    
+                    <div class="filters">
+                        <input type="checkbox"> <p>Air Conditioning</p> <span>(0)</span>
+                    </div>
+                    
+                    <div class="filters">
+                        <input type="checkbox"> <p>Pool</p> <span>(0)</span>
+                    </div>
+                    
+                    <div class="filters">
+                        <input type="checkbox"> <p>Theatre</p> <span>(0)</span>
+                    </div>
+                    
+                    <div class="filters">
+                        <input type="checkbox"> <p>Wifi</p> <span>(0)</span>
+                    </div>
+                    
+                    <div class="filters">
+                        <input type="checkbox"> <p>Gym</p> <span>(0)</span>
+                    </div>
+
+                    <div class="sidebar-link">
+                        <a href="">View More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="pagination">
+            <img src="images/arrow.png" alt="arrow">
+            
+            <span class="current">1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>&middot; &middot; &middot;</span>
+            <span>20</span>
+
+            <img class="right-arrow" src="images/arrow.png" alt="arrow">
+        </div>
+
+        <div class="footer">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-solid fa-location-dot"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <hr>
+            <small>Copyright © 2023, Staybnb.</small>
+        </div>
+
+
+    </div>
+
+    
+
+    <script>
+
+        var navBar = document.getElementById("navBar");
+
+        function togglebtn(){
+            navBar.classList.toggle("hidemenu"); 
+        }
+
+    </script>
+</body>
+</html>
